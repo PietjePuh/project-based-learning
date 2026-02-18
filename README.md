@@ -6,6 +6,17 @@ A list of programming tutorials in which aspiring software developers learn how 
 
 To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
+### Legend
+
+| Symbol | Meaning |
+|--------|---------|
+| :green_circle: | Beginner |
+| :yellow_circle: | Intermediate |
+| :red_circle: | Advanced |
+| :hourglass: 2h | Estimated completion time |
+
+> **Tip:** Check out [LEARNING_PATHS.md](LEARNING_PATHS.md) for guided learning sequences, [PROGRESS.md](PROGRESS.md) for a personal progress tracker, and [docs/tech-tags.md](docs/tech-tags.md) for a technology cross-reference.
+
 ## Table of Contents:
 
 - [C#](#c)
@@ -34,18 +45,18 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## C/C++:
 
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
-- [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
-- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
-- [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/)
-- [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/)
-- [Build Your Own Lisp](http://www.buildyourownlisp.com/)
-- [How to Program an NES Game in C](https://nesdoug.com/)
-- [Write an OS from scratch](https://github.com/tuhdo/os01)
-- [How to create an OS from scratch ](https://github.com/cfenollosa/os-tutorial)
-- [Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/)
-- [Beginning Game Programming with C++ and SDL](http://lazyfoo.net/tutorials/SDL/)
-- [Implementing a Key-Value Store](http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/)
+- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C) :red_circle: :hourglass: 40h+
+- [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory) :red_circle: :hourglass: 10h
+- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/) :yellow_circle: :hourglass: 5h
+- [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/) :red_circle: :hourglass: 15h
+- [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/) :yellow_circle: :hourglass: 10h
+- [Build Your Own Lisp](http://www.buildyourownlisp.com/) :yellow_circle: :hourglass: 20h+
+- [How to Program an NES Game in C](https://nesdoug.com/) :red_circle: :hourglass: 20h+
+- [Write an OS from scratch](https://github.com/tuhdo/os01) :red_circle: :hourglass: 40h+
+- [How to create an OS from scratch](https://github.com/cfenollosa/os-tutorial) :red_circle: :hourglass: 20h+
+- [Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/) :yellow_circle: :hourglass: 10h
+- [Beginning Game Programming with C++ and SDL](http://lazyfoo.net/tutorials/SDL/) :yellow_circle: :hourglass: 20h+
+- [Implementing a Key-Value Store](http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/) :red_circle: :hourglass: 15h
 - Tiny 3D graphics projects
   - [Tiny Renderer or how OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
   - [Understandable RayTracing in 256 lines of bare C++](https://github.com/ssloy/tinyraytracer/wiki)
@@ -55,13 +66,13 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/)
   - [Part 2](https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/)
 - [Build a Live Code-reloader Library for C++](http://howistart.org/posts/cpp/1/index.html)
-- [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
-- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
-- [Let's Write a Kernel](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
-- [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
-- [Linux Container in 500 Lines of Code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
-- [Write Your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
-- [Learning KVM - Implement Your Own Linux Kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
+- [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table) :yellow_circle: :hourglass: 5h
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/) :yellow_circle: :hourglass: 10h
+- [Let's Write a Kernel](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel) :red_circle: :hourglass: 5h
+- [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) :red_circle: :hourglass: 5h
+- [Linux Container in 500 Lines of Code](https://blog.lizzie.io/linux-containers-in-500-loc.html) :red_circle: :hourglass: 10h
+- [Write Your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) :red_circle: :hourglass: 10h
+- [Learning KVM - Implement Your Own Linux Kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html) :red_circle: :hourglass: 20h+
 - Write a C compiler
   - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
   - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
@@ -154,9 +165,9 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## C#:
 
-- [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/)
-- [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/)
-- [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/)
+- [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/) :green_circle: :hourglass: 15h
+- [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/) :yellow_circle: :hourglass: 10h
+- [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/) :green_circle: :hourglass: 2h
 - [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
 - [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
 
@@ -201,25 +212,25 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## Java:
 
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java)
-- [Build a Simple HTTP Server with Java](http://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html)
-- [Build an Android Flashlight App](https://www.youtube.com/watch?v=dhWL4DC7Krs) (video)
-- [Build a Spring Boot App with User Authentication](https://spring.io/guides/gs/securing-web/)
+- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java) :red_circle: :hourglass: 30h
+- [Build a Simple HTTP Server with Java](http://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html) :yellow_circle: :hourglass: 3h
+- [Build an Android Flashlight App](https://www.youtube.com/watch?v=dhWL4DC7Krs) (video) :green_circle: :hourglass: 1h
+- [Build a Spring Boot App with User Authentication](https://spring.io/guides/gs/securing-web/) :yellow_circle: :hourglass: 5h
 
 ## JavaScript:
 
-- [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
-- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
-- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
-- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
-- [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
-- [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
+- [Build 30 things in 30 days with 30 tutorials](https://javascript30.com) :green_circle: :hourglass: 30h
+- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6) :yellow_circle: :hourglass: 5h
+- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS) :yellow_circle: :hourglass: 5h
+- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc) :green_circle: :hourglass: 2h
+- [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893) :green_circle: :hourglass: 3h
+- [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial) :green_circle: :hourglass: 3h
 
 ## HTML and CSS:
 
-- [Build A Loading Screen](https://medium.freecodecamp.org/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f)
-- [Build an HTML Calculator with JS](https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98)
-- [Build Snake using only JavaScript, HTML & CSS](https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/)
+- [Build A Loading Screen](https://medium.freecodecamp.org/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f) :green_circle: :hourglass: 1h
+- [Build an HTML Calculator with JS](https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98) :green_circle: :hourglass: 3h
+- [Build Snake using only JavaScript, HTML & CSS](https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/) :green_circle: :hourglass: 5h
 
 ### Mobile Application:
 
@@ -230,12 +241,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 #### React:
 
-- [Create Serverless React.js Apps](http://serverless-stack.com/)
-- [Create a Trello Clone](http://codeloveandboards.com/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1/)
-- [Create a Character Voting App with React, Node, MongoDB and SocketIO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio)
-- [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
-- [Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable](https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
-- [Build a Twitter Stream with React and Node](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
+- [Create Serverless React.js Apps](http://serverless-stack.com/) :yellow_circle: :hourglass: 10h
+- [Create a Trello Clone](http://codeloveandboards.com/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1/) :yellow_circle: :hourglass: 15h
+- [Create a Character Voting App with React, Node, MongoDB and SocketIO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio) :yellow_circle: :hourglass: 10h
+- [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/) :yellow_circle: :hourglass: 10h
+- [Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable](https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) :red_circle: :hourglass: 15h
+- [Build a Twitter Stream with React and Node](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js) :yellow_circle: :hourglass: 5h
 - [Build A Simple Medium Clone using React.js and Node.js](https://medium.com/@kris101/clone-medium-on-node-js-and-react-js-731cdfbb6878)
 - [Integrate MailChimp in JS](https://medium.freecodecamp.org/how-to-integrate-mailchimp-in-a-javascript-web-app-2a889fb43f6f)
 - [Build A Chrome Extension with React + Parcel](https://medium.freecodecamp.org/building-chrome-extensions-in-react-parcel-79d0240dd58f)
@@ -280,8 +291,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 #### Node:
 
-- [Build a real-time Markdown Editor with NodeJS](https://scotch.io/tutorials/building-a-real-time-markdown-viewer)
-- [Test-Driven Development with Node, Postgres and Knex](http://mherman.org/blog/2016/04/28/test-driven-development-with-node/)
+- [Build a real-time Markdown Editor with NodeJS](https://scotch.io/tutorials/building-a-real-time-markdown-viewer) :yellow_circle: :hourglass: 3h
+- [Test-Driven Development with Node, Postgres and Knex](http://mherman.org/blog/2016/04/28/test-driven-development-with-node/) :yellow_circle: :hourglass: 5h
 - Write a Twitter Bot in Node.js
   - [Part 1](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
   - [Part 2](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
@@ -366,22 +377,22 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Web Scraping:
 
-- [Mining Twitter Data with Python](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
-- [Scrape a Website with Scrapy and MongoDB](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/)
-- [How To Scrape With Python and Selenium WebDriver](http://www.byperth.com/2018/04/25/guide-web-scraping-101-what-you-need-to-know-and-how-to-scrape-with-python-selenium-webdriver/)
-- [Which Movie Should I Watch using BeautifulSoup](https://medium.com/@nishantsahoo.in/which-movie-should-i-watch-5c83a3c0f5b1)
+- [Mining Twitter Data with Python](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/) :yellow_circle: :hourglass: 5h
+- [Scrape a Website with Scrapy and MongoDB](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/) :yellow_circle: :hourglass: 5h
+- [How To Scrape With Python and Selenium WebDriver](http://www.byperth.com/2018/04/25/guide-web-scraping-101-what-you-need-to-know-and-how-to-scrape-with-python-selenium-webdriver/) :green_circle: :hourglass: 3h
+- [Which Movie Should I Watch using BeautifulSoup](https://medium.com/@nishantsahoo.in/which-movie-should-i-watch-5c83a3c0f5b1) :green_circle: :hourglass: 2h
 
 ### Web Applications:
 
-- [Build a Microblog with Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
-- [Create a Blog Web App In Django](https://tutorial.djangogirls.org/en/)
-- [Choose Your Own Adventure Presentations](https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html)
-- [Build a Todo List with Flask and RethinkDB](https://realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/)
-- [Build a Todo List with Django and Test-Driven Development](http://www.obeythetestinggoat.com/)
-- [Build a RESTful Microservice in Python](http://www.skybert.net/python/developing-a-restful-micro-service-in-python/)
-- [Microservices with Docker, Flask, and React](https://testdriven.io/)
-- [Build A Simple Web App With Flask](https://pythonspot.com/flask-web-app-with-python/)
-- [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3)
+- [Build a Microblog with Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) :yellow_circle: :hourglass: 20h+
+- [Create a Blog Web App In Django](https://tutorial.djangogirls.org/en/) :green_circle: :hourglass: 10h
+- [Choose Your Own Adventure Presentations](https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html) :yellow_circle: :hourglass: 5h
+- [Build a Todo List with Flask and RethinkDB](https://realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/) :green_circle: :hourglass: 3h
+- [Build a Todo List with Django and Test-Driven Development](http://www.obeythetestinggoat.com/) :yellow_circle: :hourglass: 20h+
+- [Build a RESTful Microservice in Python](http://www.skybert.net/python/developing-a-restful-micro-service-in-python/) :yellow_circle: :hourglass: 5h
+- [Microservices with Docker, Flask, and React](https://testdriven.io/) :red_circle: :hourglass: 20h+
+- [Build A Simple Web App With Flask](https://pythonspot.com/flask-web-app-with-python/) :green_circle: :hourglass: 2h
+- [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3) :green_circle: :hourglass: 1h
 - Build a Community-driven delivery application with Django, Postgres and JavaScript
   - [Part 1](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
   - [Part 2](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
@@ -395,14 +406,14 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Bots:
 
-- [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
-- [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
-- [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
-- [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
-- How To Create a Telegram Bot Using Python
+- [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/) :green_circle: :hourglass: 3h
+- [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video) :green_circle: :hourglass: 2h
+- [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/) :yellow_circle: :hourglass: 5h
+- [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/) :yellow_circle: :hourglass: 5h
+- How To Create a Telegram Bot Using Python :green_circle: :hourglass: 5h
   - [Part 1](https://khashtamov.com/en/how-to-create-a-telegram-bot-using-python/)
   - [Part 2](https://khashtamov.com/en/how-to-deploy-telegram-bot-django/)
-- [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
+- [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607) :green_circle: :hourglass: 3h
 
 ### Data Science:
 
@@ -416,12 +427,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Machine Learning:
 
-- [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
-- [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
-- [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
-- [Solving A Fruits Classification Problem](https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2)
-- [Learn Unsupervised Learning with Python](https://scikit-learn.org/stable/unsupervised_learning.html)
-- [Build Your Own Neural Net from Scratch in Python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
+- [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video) :green_circle: :hourglass: 2h
+- [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/) :green_circle: :hourglass: 3h
+- [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d) :yellow_circle: :hourglass: 5h
+- [Solving A Fruits Classification Problem](https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2) :green_circle: :hourglass: 2h
+- [Learn Unsupervised Learning with Python](https://scikit-learn.org/stable/unsupervised_learning.html) :yellow_circle: :hourglass: 10h
+- [Build Your Own Neural Net from Scratch in Python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6) :yellow_circle: :hourglass: 5h
 - [Linear Regression in Python without sklearn](https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122)
 - [Multivariate Linear Regression without sklearn](https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905)
 - [Music Recommender using KNN](https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85)
@@ -434,7 +445,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Build A Document Scanner](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)
 - [Build A Face Detector using OpenCV and Deep Learning](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
-- [Build fastest custom object Detection system yusing YOLOv3(video playlist)](https://www.youtube.com/playlist?list=PLKHYJbyeQ1a0oGzgRXy-QwAN1tSV4XZxg)
+- [Build fastest custom object Detection system using YOLOv3(video playlist)](https://www.youtube.com/playlist?list=PLKHYJbyeQ1a0oGzgRXy-QwAN1tSV4XZxg)
 - [Build a Face Recognition System using OpenCV, Python and Deep Learning](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
 - [Detect The Salient Features in an Image](https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/)
 - [Build A Barcode Scanner](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
@@ -455,7 +466,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Hand Keypoint Detection](https://www.learnopencv.com/hand-keypoint-detection-using-deep-learning-and-opencv/)
 - Dlib Correlation Object Tracking -
   - [Single Object Tracker](https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/)
-  - [Mutiple Object Tracker](https://www.pyimagesearch.com/2018/10/29/multi-object-tracking-with-dlib/)
+  - [Multiple Object Tracker](https://www.pyimagesearch.com/2018/10/29/multi-object-tracking-with-dlib/)
 - [Image Stitching with OpenCV and Python](https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/)
 - [Instance Segmentation with OpenCV](https://www.pyimagesearch.com/2018/11/26/instance-segmentation-with-opencv/)
 - [Face mask detector](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
@@ -481,7 +492,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part VI - Doc2Vec](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-6-doc2vec-603f11832504)
   - [Part VII - Phrase Modeling + Doc2Vec](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-7-phrase-modeling-doc2vec-592a8a996867)
   - [Part VIII - Dimensionality Reduction](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-8-dimensionality-reduction-chi2-pca-c6d06fb3fcf3)
-  - [Part IX - Neural Nets with Tfdif vectors](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-9-neural-networks-with-tfidf-vectors-using-d0b4af6be6d7)
+  - [Part IX - Neural Nets with Tfidf vectors](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-9-neural-networks-with-tfidf-vectors-using-d0b4af6be6d7)
   - [Part X - Neural Nets with word2vec/doc2vec](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-10-neural-network-with-a6441269aa3c)
   - [Part XI - CNN with Word2Vec](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-11-cnn-word2vec-41f5e28eda74)
 - [Use Transfer Learning for custom image classification](https://becominghuman.ai/transfer-learning-retraining-inception-v3-for-custom-image-classification-2820f653c557)
@@ -503,33 +514,33 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Miscellaneous:
 
-- [Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
-- [Build a Simple Blockchain in Python](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
-- [Write a NoSQL Database in Python](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
-- [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
-- [Build a Distributed Streaming System with Python and Kafka](https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python)
-- [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://csl.name/post/python-jit/)
-- Making a low level (Linux) debugger
+- [Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/) :yellow_circle: :hourglass: 15h
+- [Build a Simple Blockchain in Python](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) :yellow_circle: :hourglass: 3h
+- [Write a NoSQL Database in Python](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/) :yellow_circle: :hourglass: 5h
+- [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b) :red_circle: :hourglass: 10h
+- [Build a Distributed Streaming System with Python and Kafka](https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python) :red_circle: :hourglass: 10h
+- [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://csl.name/post/python-jit/) :red_circle: :hourglass: 10h
+- Making a low level (Linux) debugger :red_circle: :hourglass: 10h
   - [Part 1](https://blog.asrpo.com/making_a_low_level_debugger)
   - [Part 2: C](https://blog.asrpo.com/making_a_low_level_debugger_part_2)
 - Implementing a Search Engine
   - [Part 1](http://www.ardendertat.com/2011/05/30/how-to-implement-a-search-engine-part-1-create-index/)
   - [Part 2](http://www.ardendertat.com/2011/05/31/how-to-implement-a-search-engine-part-2-query-index/)
   - [Part 3](http://www.ardendertat.com/2011/07/17/how-to-implement-a-search-engine-part-3-ranking-tf-idf/)
-- [Build the Game of Life](https://robertheaton.com/2018/07/20/project-2-game-of-life/)
-- [Create terminal ASCII art](https://robertheaton.com/2018/06/12/programming-projects-for-advanced-beginners-ascii-art/)
-- [Write a Tic-Tac-Toe AI](https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a/)
-- [Create photomosaic art](https://robertheaton.com/2018/11/03/programming-project-4-photomosaics/)
-- [Build the game "Snake" in the terminal](https://robertheaton.com/2018/12/02/programming-project-5-snake/)
-- [Write yourself a Git](https://wyag.thb.lt/)
-- [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
-- [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
+- [Build the Game of Life](https://robertheaton.com/2018/07/20/project-2-game-of-life/) :green_circle: :hourglass: 5h
+- [Create terminal ASCII art](https://robertheaton.com/2018/06/12/programming-projects-for-advanced-beginners-ascii-art/) :green_circle: :hourglass: 3h
+- [Write a Tic-Tac-Toe AI](https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a/) :yellow_circle: :hourglass: 5h
+- [Create photomosaic art](https://robertheaton.com/2018/11/03/programming-project-4-photomosaics/) :yellow_circle: :hourglass: 5h
+- [Build the game "Snake" in the terminal](https://robertheaton.com/2018/12/02/programming-project-5-snake/) :green_circle: :hourglass: 5h
+- [Write yourself a Git](https://wyag.thb.lt/) :red_circle: :hourglass: 15h
+- [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html) :red_circle: :hourglass: 10h
+- [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/) :green_circle: :hourglass: 3h
 
 ## Go:
 
-- [Create a Real Time Chat App with Golang, Angular 2, and WebSocket](https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/)
-- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
-- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
+- [Create a Real Time Chat App with Golang, Angular 2, and WebSocket](https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/) :yellow_circle: :hourglass: 5h
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) :yellow_circle: :hourglass: 5h
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) :yellow_circle: :hourglass: 3h
 - Building Blockchain in Go
   - [Part 1: Basic Prototype](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
   - [Part 2: Proof of Work](https://jeiwan.net/posts/building-blockchain-in-go-part-2/)
@@ -538,8 +549,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 5: Address](https://jeiwan.net/posts/building-blockchain-in-go-part-5/)
   - [Part 6: Transactions 2](https://jeiwan.net/posts/building-blockchain-in-go-part-6/)
   - [Part 7: Network](https://jeiwan.net/posts/building-blockchain-in-go-part-7/)
-- [Building a container from scratch in Go - Liz Rice (Microscaling Systems)(video)](https://www.youtube.com/watch?v=8fi7uSYlOdc)
-- [Build Web Application with GoLang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
+- [Building a container from scratch in Go - Liz Rice (Microscaling Systems)(video)](https://www.youtube.com/watch?v=8fi7uSYlOdc) :red_circle: :hourglass: 2h
+- [Build Web Application with GoLang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) :yellow_circle: :hourglass: 20h+
 - Building a Chat Application in Go with ReactJS
   - [Part 1: Initial Setup](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-1-initial-setup/)
   - [Part 2: Simple Communication](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-2-simple-communication/)
@@ -547,7 +558,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4: Handling Multiple Clients](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-4-handling-multiple-clients/)
   - [Part 5: Improving the Frontend](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-5-improved-frontend/)
   - [Part 6: Dockerizing your Backend](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-6-dockerizing-your-backend/)
-- [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
+- [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/) :yellow_circle: :hourglass: 3h
 - REST Servers in Go
   - [Part 1 - standard library](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
   - [Part 2 - using a router package](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-2-using-a-router-package/)
@@ -562,7 +573,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 3 - Short Link Generator](https://www.eddywm.com/lets-build-a-url-shortener-in-go-part-3-short-link-generation/)
   - [Part 4 - Forwarding](https://www.eddywm.com/lets-build-a-url-shortener-in-go-part-iv-forwarding/)
 - [Building a TCP Chat in Go(video)](https://www.youtube.com/watch?v=Sphme0BqJiY)
-- [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
+- [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/) :red_circle: :hourglass: 10h
 - [REST API masterclass with Go, PostgreSQL and Docker(video playlist)`in progress`](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 
 ## PHP:
@@ -575,7 +586,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Build a full-featured multi-tenant app with Laravel
   - [Part 0: Introduction](https://medium.com/@ashokgelal/writing-a-full-featured-multi-tenant-laravel-app-from-scratch-a0e1a7350d9d)
   - [Part 1: Setup](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-1-4049a3cc229d)
-  - [Part 2: Roles and Permissinos](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-roles-and-permissions-d9a5bfe5d525)
+  - [Part 2: Roles and Permissions](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-roles-and-permissions-d9a5bfe5d525)
   - [Part 3: Invitation](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-3-invitation-c982dca55eb9)
   - [Part 4: Authentication](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-4-tenancy-aware-authentication-e0ee37270bc8)
   - [Part 5: Testing](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-unit-tests-96d6dfbf0617)
@@ -600,15 +611,15 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Ruby on Rails:
 
-- [The Ruby on Rails Tutorial](https://www.railstutorial.org/book)
+- [The Ruby on Rails Tutorial](https://www.railstutorial.org/book) :green_circle: :hourglass: 20h+
 - [Build Instagram From Scratch with Ruby on Rails](https://www.dropbox.com/s/9vq430e9s3q7pu8/Let%27s%20Build%20Instagram%20with%20Ruby%20on%20Rails%20-%20Free%20Edition.pdf?dl=0)
 - [Build a Social Network using Rails](https://medium.com/rails-ember-beyond/how-to-build-a-social-network-using-rails-eb31da569233)
 - [How To Build a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-build-a-ruby-on-rails-application)
 
 ## Haskell:
 
-- [Write You a Haskell - Build a modern functional compiler](http://dev.stephendiehl.com/fun/)
-- [Write Yourself a Scheme in 48 hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+- [Write You a Haskell - Build a modern functional compiler](http://dev.stephendiehl.com/fun/) :red_circle: :hourglass: 40h+
+- [Write Yourself a Scheme in 48 hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours) :yellow_circle: :hourglass: 20h+
 - [Write You A Scheme, Version 2](https://github.com/write-you-a-scheme-v2/scheme)
 - [Roll Your Own IRC Bot](https://wiki.haskell.org/Roll_your_own_IRC_bot)
 - [Making Movie Monad](https://lettier.github.io/posts/2016-08-15-making-movie-monad.html)
@@ -626,16 +637,16 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
   - [Part 2a](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/)
   - [Part 2b](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/)
-- [Write an OS in pure Rust](https://os.phil-opp.com/)
-- [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
-- [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/)
-- [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html)
+- [Write an OS in pure Rust](https://os.phil-opp.com/) :red_circle: :hourglass: 40h+
+- [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html) :red_circle: :hourglass: 20h+
+- [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/) :yellow_circle: :hourglass: 5h
+- [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html) :yellow_circle: :hourglass: 10h
 - Rust in Detail: Writing Scalable Chat Service from Scratch
   - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
   - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
-- [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
-- [Single Page Applications using Rust](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)
-- [Writing NES Emulator in Rust](https://bugzmanov.github.io/nes_ebook/)
+- [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/) :yellow_circle: :hourglass: 15h
+- [Single Page Applications using Rust](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/) :yellow_circle: :hourglass: 5h
+- [Writing NES Emulator in Rust](https://bugzmanov.github.io/nes_ebook/) :red_circle: :hourglass: 20h+
 - Create a simulation of evolution using neural network and genetic algorithm, and compile the application to WebAssembly
   - [Part 1](https://pwy.io/en/posts/learning-to-fly-pt1/)
   - [Part 2](https://pwy.io/en/posts/learning-to-fly-pt2/)
@@ -649,7 +660,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## Swift:
 
-- [Hacking with Swift - Learn Swift by doing 39 projects](https://www.hackingwithswift.com/read)
+- [Hacking with Swift - Learn Swift by doing 39 projects](https://www.hackingwithswift.com/read) :green_circle: :hourglass: 40h+
 - [Retro first-person shooter from scratch](https://github.com/nicklockwood/RetroRampage)
 
 ## Additional Resources
