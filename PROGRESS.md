@@ -430,4 +430,4 @@ Track your learning journey through the project-based tutorials. Check off proje
 | Favorite language | - |
 | Total hours spent | 0 |
 
-*Last updated: YYYY-MM-DD*
+### Last updated: YYYY-MM-DD

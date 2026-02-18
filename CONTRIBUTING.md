@@ -1,6 +1,7 @@
 # Contribution guidelines
 
 Before making a pull request, please make sure of the following:
+
 * The tutorial(s) you want to add do not already exist
 * Your tutorial is correctly placed under the appropriate language/technology
 * Improvements of the same tutorial are encouraged!
@@ -9,11 +10,13 @@ Before making a pull request, please make sure of the following:
 * Make a separate pull request for each of the tutorial
 * Use the following format `[Title](link_to_tutorial)`
 * If your tutorial is a multi-part series, use the following format:
-    ```
+
+    ```markdown
         * Title
             * [Part 1](link_to_part_1)
             * [Part 2](link_to_part_2)
     ```
+
 * Check the spelling and grammar
 * Do the work, write good commit messages, and read the CONTRIBUTING file if there is one
 * Remove any trailing whitespaces
